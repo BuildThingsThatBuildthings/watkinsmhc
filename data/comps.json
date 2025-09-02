@@ -1,0 +1,44 @@
+{
+  "location": "Watkins, MN",
+  "property_type": "3BR/2BA Apartment",
+  "average_rent": 1999,
+  "currency": "USD",
+  "period": "monthly",
+  "collected_at": "2024-09-02",
+  "methodology": "trimmed_mean",
+  "sources": [
+    {
+      "name": "Apartments.com",
+      "url": "https://www.apartments.com/watkins-mn/3-bedrooms/",
+      "date_accessed": "2024-09-02",
+      "listings_analyzed": 8,
+      "average": 1985
+    },
+    {
+      "name": "Zillow",
+      "url": "https://www.zillow.com/watkins-mn/rentals/3-bedrooms/",
+      "date_accessed": "2024-09-02",
+      "listings_analyzed": 6,
+      "average": 2013
+    }
+  ],
+  "notes": "Data represents market context for comparison purposes. Trimmed mean calculated after removing highest and lowest outliers.",
+  "ownership_estimate": {
+    "total_monthly": 1115,
+    "breakdown": {
+      "home_payment": 665,
+      "lot_rent": 325,
+      "insurance": 75,
+      "taxes": 50
+    },
+    "assumptions": {
+      "home_price": 85000,
+      "down_payment_percent": 15,
+      "apr": 8.5,
+      "term_years": 15,
+      "insurance_annual": 900,
+      "taxes_annual": 600
+    },
+    "disclaimer": "Illustrative estimate only. Actual costs vary by home price, credit, and terms."
+  }
+}
