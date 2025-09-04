@@ -815,4 +815,68 @@ section {
   .amenities-grid {
     grid-template-columns: 1fr;
   }
+  
+  .email-signup-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Email Signup Section */
+.email-signup {
+  background: linear-gradient(135deg, var(--color-primary-blue) 0%, var(--color-primary-red) 100%);
+  padding: var(--space-20) 0;
+  color: var(--color-white);
+}
+
+.email-signup .section-title {
+  color: var(--color-white);
+  text-align: center;
+  margin-bottom: var(--space-8);
+}
+
+.email-signup .section-title::after {
+  background: var(--color-gold);
+}
+
+.email-signup-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-12);
+  align-items: center;
+}
+
+.email-signup-text {
+  text-align: center;
+}
+
+.email-signup-text p {
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  line-height: var(--line-height-relaxed);
+  opacity: 0.9;
+}
+
+/* Form Containers */
+.form-container {
+  background: var(--color-white);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  border: 2px solid var(--color-gold);
+  min-height: 490px;
+  transition: all var(--transition-base);
+}
+
+.form-container:hover {
+  box-shadow: var(--shadow-xl);
+  transform: translateY(-2px);
+}
+
+.email-signup .form-container {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form .form-container {
+  min-height: 460px;
+  border-color: var(--color-primary-blue);
 }
